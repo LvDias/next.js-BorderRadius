@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+section{
+    max-width: 550px;
+    
+    > div{
+
+        > div.input-box{
+            
+            > input{
+                width: 25px;
+            }
+
+        }
+
+        > div.show-box{
+            z-index: 2;
+            border: solid black;
+            width: calc(100% - 75px);
+            height: calc(100% - 75px);
+
+            > textarea{
+                border: solid black 1px;
+                resize: none;
+            }
+
+        }
+
+    }
+
+}
